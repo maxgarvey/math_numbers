@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+td {
+  font-family: sans-serif;
+}
+
+/*white text for header*/
+td.header {
+  color: #000000;
+}
+
+/*background should change if its not empty*/
+td.empty {
+  background-color: #FFFFFF;
+  color: #404040;
+  font-style: italic;
+}
+
+td.full {
+  background-color: lightgrey;
+}
