@@ -79,7 +79,12 @@ jQuery(document).ready(function(){
 
   //when focus leaves a td, then we get rid of the text box
   jQuery("td").focusout(function() {
+    _this = jQuery(this);
+    is_data = has_class(_this, "data");
+    is_header = has_class(_this, "header");
 
+    //something to get the contents of the cell so that we can
+    //save it
   });
 
 });
